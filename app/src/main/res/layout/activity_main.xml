@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#80877A01"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="314dp"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="Welcome to Brooklyn's Knowledge hub"
+        android:textColor="@color/teal_700"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:backgroundTintMode="multiply"
+        android:textColor="@color/purple_200"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Let's Go" />
+
+</LinearLayout>
